@@ -20,7 +20,7 @@ const ProductCard = ({ imageUrl, productName, price }) => {
                         </Typography>
                         {price}
                     </Typography>
-                    <IconButton color="primary" aria-label="Add to cart">
+                    <IconButton color="secondary" aria-label="Add to cart">
                         <AddCircle />
                     </IconButton>
                 </div>
